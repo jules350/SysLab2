@@ -47,10 +47,10 @@ pvp_0  = 3.0;	% pressure of the counter pressure stock [bar]
 
 
 %% Running the simulations inside of the Matlab-script
-Simulation_Time = 1000;
-SimOut = sim('voima',Simulation_Time);
-
-figure;
-plot(SimOut.time, SimOut.fg)
-xlabel("time")
-ylabel("f_g (kg/s)")
+% Simulation_Time = 1000;
+% SimOut = sim('voima',Simulation_Time);
+% 
+% figure;
+% plot(SimOut.time, SimOut.fg)
+% xlabel("time")
+% ylabel("f_g (kg/s)")
