@@ -1,11 +1,11 @@
-% Exercise 4: Add an integrator to the state feedback controller
-% Run the file param.m before this one
+% Exercise 5: Add an integrator to the state feedback controller
+param
 
 x_0 = [fp_0 pk_0 pkp_0];  % equilibrium state
 
 % K obtained with R=0.01
 K=[2.5277    2.8612    5.6791];
-k4 = 0.1; % integrator coefficient
+k_i = 0.1; % integrator coefficient
 
 % Simulate the system
 delta_z1 = 0.08403361345; % change in valve setting

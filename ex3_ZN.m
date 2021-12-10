@@ -1,5 +1,5 @@
 % Exercise 3: tune the PID with the Ziegler-Nichols method. 
-% Run the file param.m before this one
+param
 
 % The time step of the model is fixed to 1.
 Simulation_Time = 200;

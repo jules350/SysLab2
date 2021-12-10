@@ -1,5 +1,5 @@
 % Exercise 4: Construct a state feedback controller
-% Run the file param.m before this one
+param
 
 % Set parameters
 x_0 = [fp_0 pk_0 pkp_0];  % equilibrium state
@@ -28,7 +28,7 @@ K
 
 % Simulate the system
 delta_z1 = 0.08403361345; % change in valve setting
-k4 = 0; % do not use the integral term yet
+k_i = 0; % do not use the integral term yet
 Simulation_Time = 1000;
 SimOut = sim('ex5_model.slx', Simulation_Time);
 

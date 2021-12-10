@@ -1,5 +1,5 @@
-% Plotting for Exercise 2
-% Run the file param.m before this one
+% Exercise 2: Plot the step response when valve z1 is opened
+param
 
 delta_z1 = 0.08403361345; % Step increase of 3kg/s
 delta_u = 0;

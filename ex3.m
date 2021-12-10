@@ -1,5 +1,5 @@
-% Exercise 3: tune the PID controller by hand
-% Run the file param.m before this one
+% Exercise 3: tune the PID-controller by hand
+param
 
 % Set parameters
 delta_z1 = 0; % change in valve setting
@@ -11,6 +11,7 @@ K_i = 0.02;
 %K_i = 0; % for the P-controller
 K_d = 20;
 %K_d = 0; % for the P/PI-controllers
+
 Simulation_Time = 1000;
 SimOut = sim('ex3_model.slx', Simulation_Time);
 
