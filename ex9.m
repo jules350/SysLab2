@@ -13,7 +13,7 @@ K_d = 20;
 K_pz = 0.3;
 K_iz = 0.02;
 K_dz = 0;
-
+%K_dz = 3; % for PID-controller
 
 % Simulate
 Simulation_Time = 1000;
