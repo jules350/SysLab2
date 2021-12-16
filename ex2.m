@@ -1,7 +1,7 @@
 % Exercise 2: Plot the step response when valve z1 is opened
 param
 
-delta_z1 = 0.08403361345; % Step increase of 3kg/s
+delta_z1 = 0.084; % Step increase of 3kg/s
 delta_u = 0;
 % No controller
 K_p = 0;

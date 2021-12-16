@@ -8,7 +8,7 @@ K=[2.5277    2.8612    5.6791];
 k_i = 0.1; % integrator coefficient
 
 % Simulate the system
-delta_z1 = 0.08403361345; % change in valve setting
+delta_z1 = 0.084; % change in valve setting
 Simulation_Time = 1000;
 SimOut = sim('ex5_model.slx', Simulation_Time);
 

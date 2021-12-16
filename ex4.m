@@ -27,7 +27,7 @@ fprintf("Rank of controllability matrix: %i\n", rank(Q_c))
 K
 
 % Simulate the system
-delta_z1 = 0.08403361345; % change in valve setting
+delta_z1 = 0.084; % change in valve setting
 k_i = 0; % do not use the integral term yet
 Simulation_Time = 1000;
 SimOut = sim('ex5_model.slx', Simulation_Time);
